@@ -47,6 +47,7 @@ export const SettingsNested = () => {
             <p className='nested-text'>Find out more about Posly</p>
           </NavLink>
         </li>
+
       </ul>
     </>
   )

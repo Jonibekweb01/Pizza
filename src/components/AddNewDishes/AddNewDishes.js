@@ -4,6 +4,7 @@ import Download from "../../assets/images/AddNewDIshes/Download.png";
 import { useRef } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 export const AddNewDishes = ({ setForm }) => {
     const productName = useRef()
@@ -32,7 +33,6 @@ export const AddNewDishes = ({ setForm }) => {
                 if (res.status === 200) {
                     return setForm(false);
                 }
-                console.log(res);
             })
             .catch((err) => console.log(err));
 

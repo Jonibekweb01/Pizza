@@ -27,8 +27,10 @@ export const HotDishes = () => {
                            <img className='dish-img' src={`http://localhost:5000/${el.image}`} alt='img' width={132} height={132} />
                            <div className='dish-box'>
                               <h3 className='dish-title'>{el.name}</h3>
-                              <span className='dish-cur'>{el.price}</span>
-                              <p className='dish-text'>{el.bowls}</p>
+                              <div className='dish-boxx'>
+                                 <span className='dish-cur'>{el.price} Bowls</span>
+                                 <p className='dish-text'>{el.bowls}$</p>
+                              </div>
                            </div>
                         </li>
                      ))

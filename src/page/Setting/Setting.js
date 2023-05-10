@@ -12,7 +12,7 @@ export const Settings = () => {
           <Routes>
             <Route path="/appereance/*" element={<h2>appereance</h2>} />
             <Route path="/your-reustarant/*" element={<h2>Your reustarant</h2>} />
-            <Route path="/product-management/*" element={<ProductsManagement/>} />
+            <Route path="/product-management/*" element={<ProductsManagement />} />
             <Route path="/notifications/*" element={<h2>notifications</h2>} />
             <Route path="/security/*" element={<h2>security</h2>} />
             <Route path="/about-management/*" element={<h2>about-management</h2>} />

@@ -7,7 +7,7 @@
 }
 .setingpage__section {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
 }
 .setingpage__dishesbox {
   width: 100%;
